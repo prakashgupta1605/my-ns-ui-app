@@ -1,0 +1,10 @@
+{
+	"inputFiles": ["src/ts/jet-composites/my-ns-ui-app"],
+	"exclude": ["**/loader.ts"],
+	"mode": "modules",
+	"out": "docs",
+	"name": "Documentation",
+	"stripInternal": true,
+	"excludePrivate": true,
+	"excludeTags": ["ojmetadata"]
+}

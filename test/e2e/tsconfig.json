@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2018",
+		"noImplicitAny": true,
+		"moduleResolution": "node",
+		"baseUrl": ".",
+		"paths": { "@ns-ui/e2e-toolkit/*": ["node_modules/@ns-ui/e2e-toolkit/dist/*"] }
+	},
+	"include": ["./**/*.ts"]
+}

@@ -1,0 +1,32 @@
+{
+	"name": "my-ns-ui-app",
+	"version": "1.0.0",
+	"description": "My NS UI App",
+	"dependencies": {
+		"@ns-ui/apps-dependencies": "latest",
+		"@ns-ui/suitescript": "^2.0.2",
+		"@reduxjs/toolkit": "^1.5.0",
+		"@suitescript/api": "^0.1.1",
+		"@suitescript/legacy-record-types": "0.5.0",
+		"@suitescript/record-types": "0.3.3320762",
+		"@types/requirejs": "^2.1.33",
+		"axios": "^0.21.1",
+		"react-redux": "^7.2.3",
+		"redux": "^4.0.5"
+	},
+	"engines": {
+		"node": ">=0.10.0"
+	},
+	"prettier": "@ns-ui/formatter-config",
+	"private": true,
+	"scripts": {
+		"test": "ns-ui test",
+		"coverage": "ns-ui coverage",
+		"lint": "ns-ui lint",
+		"prettier": "ns-ui prettier",
+		"build": "ns-ui build",
+		"serve": "ns-ui serve",
+		"postinstall": "ns-ui postinstall",
+		"e2e": "ns-ui e2e"
+	}
+}

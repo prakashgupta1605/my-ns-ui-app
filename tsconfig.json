@@ -1,0 +1,64 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "module": "amd",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "jsxFactory": "h",
+    "lib": [
+      "es2015",
+      "dom",
+      "esnext.asynciterable"
+    ],
+    "typeRoots": [
+      "./node_modules/@oracle/oraclejet/dist/types",
+      "./node_modules/@types"
+    ],
+    "paths": {
+      "ojs/*": [
+        "./node_modules/@oracle/oraclejet/dist/types/*"
+      ],
+      "ns-ui-toolkit/*": [
+        "./jet_components/ns-ui-toolkit/types/*"
+      ],
+      "N": [
+        "./node_modules/@ns-ui/suitescript/N"
+      ],
+      "N/*": [
+        "./node_modules/@ns-ui/suitescript/N/*"
+      ],
+      "NX": [
+        "./node_modules/@suitescript/api/NX/SuiteScript"
+      ],
+      "NX/*": [
+        "./node_modules/@suitescript/api/NX/*"
+      ],
+      "react": [
+        "./node_modules/preact/compat"
+      ],
+      "react-dom": [
+        "./node_modules/preact/compat"
+      ],
+      "@ns-ui/navigation/*": [
+        "./node_modules/@ns-ui/navigation/dist/*"
+      ],
+      "my-ns-ui-app/*": [
+        "./src/ts/jet-composites/my-ns-ui-app/*"
+      ],
+      "oj-sp/*": [
+        "./jet_components/oj-sp/types/*"
+      ]
+    },
+    "declaration": true,
+    "noEmitOnError": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "./src/ts/**/*",
+    "./test/unit/**/*"
+  ]
+}

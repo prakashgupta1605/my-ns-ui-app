@@ -1,0 +1,13 @@
+{
+	"name": "integration",
+	"version": "1.0.0",
+	"description": "integration tests for NetSuite UI",
+	"main": "index.js",
+	"devDependencies": {
+		"@ns-ui/e2e-toolkit": "latest",
+		"typescript": "^4.1.3"
+	},
+	"dependencies": {},
+	"author": "Oracle/NetSuite",
+	"license": "ISC"
+}

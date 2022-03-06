@@ -1,0 +1,17 @@
+# Jet/npm folders
+**/node_modules/**
+/jet_components/**
+/staged-themes/**
+
+# Build output
+/web/**
+
+# Editors
+**/.idea/**
+**/.vscode/**
+
+# Other
+/.tools
+
+# Test output
+/test/e2e/mochawesome-report/**

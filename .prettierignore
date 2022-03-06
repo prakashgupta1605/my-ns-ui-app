@@ -1,0 +1,8 @@
+node_modules
+staged-themes
+web
+jet_components
+package-lock.json
+oraclejetconfig.json
+.tools
+*-min.css

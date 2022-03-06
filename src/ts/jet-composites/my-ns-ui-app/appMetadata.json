@@ -1,0 +1,12 @@
+{
+	"appId": "my-ns-ui-app",
+	"navigationTargets": [
+		{
+			"targetKey": "main",
+			"appPath": "my-ns-ui-app",
+			"label": "my-ns-ui-app",
+			"description": "My NS UI App",
+			"workarea": "home"
+		}
+	]
+}

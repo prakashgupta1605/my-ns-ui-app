@@ -1,0 +1,31 @@
+{
+  "paths": {
+    "source": {
+      "common": "src",
+      "web": "src-web",
+      "hybrid": "src-hybrid",
+      "javascript": "js",
+      "typescript": "ts",
+      "styles": "css",
+      "themes": "themes"
+    },
+    "staging": {
+      "web": "web",
+      "hybrid": "hybrid",
+      "themes": "staged-themes"
+    }
+  },
+  "defaultBrowser": "chrome",
+  "sassVer": "4.13.0",
+  "defaultTheme": "redwood",
+  "defaultCssvars": "enabled",
+  "generatorVersion": "11.1.0",
+  "exchange-url": "https://exchange.oraclecorp.com/api/0.2.0/",
+  "components": {
+    "ns-ui-toolkit": {
+      "components": {
+        "library": "^7.2.0"
+      }
+    }
+  }
+}
